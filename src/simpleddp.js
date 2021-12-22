@@ -10,7 +10,7 @@ import { ddpCollection } from './classes/ddpCollection.js';
 import { nanoid } from 'nanoid';
 
 function uniqueIdFuncGen() {
-	return nanoid();
+	return () => nanoid();
 }
 
 const simpleDDPcounter = uniqueIdFuncGen();
