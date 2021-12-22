@@ -1,4 +1,4 @@
-import DDP from '../core';
+import DDP from '../core/src/ddp.js';
 import EJSON from "ejson";
 
 import { isEqual } from './helpers/isequal.js';
