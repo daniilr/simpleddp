@@ -13,7 +13,7 @@
     "client",
     "meteor"
   ],
-  "main": "lib/simpleddp.js",
+  "main": "src/simpleddp.js",
   "scripts": {
     "test": "npm run build && mocha",
     "docs": "jsdoc -c jsdoc_conf.json",
