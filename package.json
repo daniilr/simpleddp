@@ -20,7 +20,7 @@
     "build": "rm -rf lib && babel src --out-dir lib --no-comments",
     "prepare": "npm run build",
     "prepublish": "npm run build",
-    "postinstall": "cd core && npm i",
+    "postinstall": "cd core && npm i"
   },
   "repository": {
     "type": "git",
