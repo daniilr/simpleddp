@@ -7,10 +7,10 @@ import { fullCopy } from './helpers/fullCopy.js';
 import { ddpEventListener } from './classes/ddpEventListener.js';
 import { ddpSubscription } from './classes/ddpSubscription.js';
 import { ddpCollection } from './classes/ddpCollection.js';
-import { nanoid } from 'nanoid';
+import nanoid from 'nanoid';
 
 function uniqueIdFuncGen() {
-	return () => nanoid();
+	return () => nanoid.nanoid();
 }
 
 const simpleDDPcounter = uniqueIdFuncGen();
