@@ -35,7 +35,7 @@
     "clone-deep": "^4.0.1",
     "ejson": "^2.2.0",
     "nanoid": "^3.1.30",
-    "simpleddp-core": "^1.0.6"
+    "simpleddp-core": "github:daniilr/simpleddp-core#master"
   },
   "devDependencies": {
     "@pixi/jsdoc-template": "^2.4.2",
